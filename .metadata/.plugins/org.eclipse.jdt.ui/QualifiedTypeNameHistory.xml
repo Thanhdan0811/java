@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="sorts.BubbleSort"/>
+    <fullyQualifiedTypeName name="sorts.SelectionSort"/>
+    <fullyQualifiedTypeName name="sorts.InsertionSort"/>
+    <fullyQualifiedTypeName name="sorts.MergeSort"/>
+</qualifiedTypeNameHistroy>

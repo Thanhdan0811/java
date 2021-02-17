@@ -1,0 +1,45 @@
+package sorts;
+
+public class MergeSort {
+	private static int[] mergeArr(int arr1[], int arr2[]) {
+		int i = 0, j = 0, s = 0;
+		int[] rel = new int[arr1.length + arr2.length];
+		while(i < arr1.length && j < arr2.length) {
+			if(arr1[i] < arr2[j]) {
+				rel[s] = arr1[i];
+				i++;
+			} else if(arr1[i] > arr2[j]) {
+				rel[s] = arr2[j];
+				j++;
+			} else {
+				rel[s] = arr2[j];
+				rel[++s] = arr1[i];
+				i++;
+				j++;
+			}
+			s++;
+		}
+		while(i < arr1.length) {
+			rel[s] = arr1[i];
+			i++;
+			s++;
+		}
+		while(j < arr2.length) {
+			rel[s] = arr2[j];
+			j++;
+			s++;
+		}
+		return rel;
+	}
+	
+	public void mergeSort(int arr[]) {
+//		int divideMid = Math.ceil()
+	}
+	
+	public static void main(String args[]) {
+		int arr1[] = {3,4,12,17};
+		int arr2[] = {5,6,9,10};
+		mergeArr(arr1, arr2);
+		System.out.println("sadfsadf" + (3 / 2));
+	}
+}

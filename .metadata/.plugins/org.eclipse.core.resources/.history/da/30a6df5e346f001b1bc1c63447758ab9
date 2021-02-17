@@ -1,0 +1,17 @@
+import sorts.BubbleSort;
+import sorts.SelectionSort;
+
+public class Main {
+	public static void main(String args[] ) {
+//		int arr[] = {4,6,7,2,12,5,15,8,9,2,1,3,23};
+		int arr[] = {1,2,3,4};
+//		int arr[] = {};
+		SelectionSort sort = new SelectionSort();
+		int rel[] = sort.selectionSortRegular(arr);
+		System.out.println("*********************");
+		System.out.println("test case 1 : ");			
+		for(int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}
+	}
+}

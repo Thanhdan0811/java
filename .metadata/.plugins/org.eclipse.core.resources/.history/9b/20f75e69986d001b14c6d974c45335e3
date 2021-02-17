@@ -1,0 +1,17 @@
+package sorts;
+
+public class BubbleSort {
+	// Algorithm of bubbleSort 
+	// we can start at the first index or the last index.
+	// we compare two element first and second, if first element is greater than second element.
+	// then we swap 2 element then we continue with the second and the third element.
+	// after one iteration we continue with the remaining. 
+	// after each iteration, the largest element among the unsorted element will be placed at the end.
+	
+	// initial the array
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+}

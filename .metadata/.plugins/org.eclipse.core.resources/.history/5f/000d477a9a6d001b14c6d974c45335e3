@@ -1,0 +1,16 @@
+import sorts.BubbleSort;
+
+public class Main {
+	public static void main(String args[] ) {
+		int arr1[] = {4,6,7,2,12,5,6,8,9,2,1,3,23};
+		int arr2[] = {1,2,3,4};
+		int arr3[] = {};
+		BubbleSort bs = new BubbleSort();
+		int rel1[] = bs.bubbleSort(arr1);
+		int rel2[] = bs.bubbleSort(arr2);
+		int rel3[] = bs.bubbleSort(arr3);
+		System.out.println("test case 1 : " + rel1[]);
+		System.out.println("test case 2 : " + rel2);
+		System.out.println("test case 3 : " + rel3);
+	}
+}
