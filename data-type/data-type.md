@@ -12,6 +12,8 @@
 
 # Primitive Floating
 
+f : specify that the number is float number. same with d is double.
+
 ```
 float floatNumb1 = 10f/6f;
 double doubleNum1 = 10d/6d;
