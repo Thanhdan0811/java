@@ -9,3 +9,11 @@
   byte byteMax = 127;
   bute byteMin = -128;
 ```
+
+# Primitive Floating
+
+```
+float floatNumb1 = 10f/6f;
+double doubleNum1 = 10d/6d;
+
+```
