@@ -25,6 +25,7 @@ double doubleNum1 = 10d/6d; => 1.666666666667
 ```
 boolean var = false;
 char var1 = 'c';
+char var2 = '\u00A7';
 
 ```
 
