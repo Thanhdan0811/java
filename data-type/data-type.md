@@ -1,0 +1,11 @@
+# Primitive Integer
+`
+  int max = 2147483647;
+  int min = -2147483648;
+  short shortMax = 32767;
+  short shortMIn = -32768;
+  long longMax = 9222....;
+  long longMin = -9222...;
+  byte byteMax = 127;
+  bute byteMin = -128;
+`
