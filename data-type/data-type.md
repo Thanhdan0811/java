@@ -27,3 +27,5 @@ boolean var = false;
 char var1 = 'c';
 
 ```
+
+Link get unicode table : https://www.rapidtables.com/code/text/unicode-characters.html
