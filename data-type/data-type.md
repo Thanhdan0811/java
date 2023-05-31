@@ -15,7 +15,7 @@
 f : specify that the number is float number. same with d is double.
 
 ```
-float floatNumb1 = 10f/6f;
-double doubleNum1 = 10d/6d;
+float floatNumb1 = 10f/6f;  => 1.666667
+double doubleNum1 = 10d/6d; => 1.666666666667
 
 ```
