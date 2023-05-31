@@ -19,3 +19,11 @@ float floatNumb1 = 10f/6f;  => 1.666667
 double doubleNum1 = 10d/6d; => 1.666666666667
 
 ```
+
+# Primitive Boolean , Char
+
+```
+boolean var = false;
+char var1 = 'c';
+
+```
