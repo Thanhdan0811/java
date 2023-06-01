@@ -30,3 +30,19 @@ char var2 = '\u00A7';
 ```
 
 Link get unicode table : https://www.rapidtables.com/code/text/unicode-characters.html
+
+# BigDecimal 
+ ```
+    BigDecimal d1 = new BigDecimal(1.05);
+		BigDecimal d2 = new BigDecimal(2.55);
+		System.out.println(d1.add(d2)); => 3.5999999999999998667732370449812151491641998291015625
+    
+    OR
+    
+    BigDecimal d1 = new BigDecimal("1.05");
+		BigDecimal d2 = new BigDecimal("2.55");
+		
+		System.out.println(d1.add(d2)); => 3.60
+ 
+ ```
+
