@@ -45,4 +45,18 @@ Link get unicode table : https://www.rapidtables.com/code/text/unicode-character
 		System.out.println(d1.add(d2)); => 3.60
  
  ```
+ 
+ # STRING
+ 
+ ```
+		String str = "HEllo world \u00BB";
+		String str4 = new String("áldfj");
+		String str1 = "10";
+		String str2 = "20";
+		int num1 = 20;
+		
+		System.out.println(str1 + str2);
+		System.out.println(str1 + (num1 + 10 ));
+ 
+ ```
 
