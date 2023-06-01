@@ -59,4 +59,8 @@ Link get unicode table : https://www.rapidtables.com/code/text/unicode-character
 		System.out.println(str1 + (num1 + 10 ));
  
  ```
-
+# Type Casting
+Implicit Casting : 
+	byte (8) => short (16) => int (32 bit) => long (64 bit) => float (32 bit) => double (64bit)
+Explicit Casting : 
+	double => float => long => int => short => byte
