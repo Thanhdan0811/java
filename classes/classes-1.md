@@ -134,6 +134,75 @@ public Car(String steering, String engine, int wheels, int seats, int fueTank, S
 
 # Overriding
 - Rules :
-The method must have the same name as in the parent class
-The method must be IS-A relationship(inheritance)
-The method must have the same parameters as in the parent class.
++ The method must have the same name as in the parent class
++ The method must be IS-A relationship(inheritance)
++ The method must have the same parameters as in the parent class.
+
+
+# Tyoes of Inheritance
+- Single Inheritance : 
+	+ Class A => Class B : Class B là child class hay sub class.
+
+- Multiple Inheritance : 
+	+ Class A => Class C <= Class B : ko cho phép trong java. cho phép trong c++
+	+ Class A => Class B => Class C : cho phép trong Java
+	+ Class A => Class B , Class A => Class C ....
+	+ Class B <= Class A = > Class C ; Class B => Class D <= Class C; ko cho phép trong Java
+
+
+# Composition OOP
+- là mối quan hệ giữa 2 class, nếu ko có class A thì class B cũng ko hoạt động.
+
+```
+	public Laptop() {
+ 
+		this.screen = 15.6f;
+		this.processor = new Processor();
+		this.ram = "DDR4";
+		this.hardDrive = "2TB";
+		this.graphicsCard = new GraphicsCard();
+		this.opticalDrive = "MLT layer";
+		this.keyboard = "backlit";
+	}
+	
+	public Processor getProcessor() {
+		return processor;
+	}
+	
+	// Main Class
+	public class Hello {
+ 
+	public static void main(String[] args) {
+		Laptop lappy = new Laptop();
+		System.out.println(lappy.getProcessor().getBrand());
+ 
+	}
+ 
+}
+
+```
+- class Laptop and class Processor là composition của nhau.
+- getProcessor ta có thể access các method trong Processor.
+
+# Encapsulation 
+- Dùng keyword private để đóng gói dữ liệu trong class.
+- Các properties nên được khởi tạo.
+
+
+# Polymorphism : Tính đa hình.
+
+
+```
+	Phone note8 = new SamsungNote8("Note 8");
+		System.out.println(note8.getModel());
+		note8.features();
+		
+		
+		
+		Phone nokia3310 = new Nokia3310("Nokia 3310");
+		System.out.println(nokia3310.getModel());
+		nokia3310.features();
+
+```
+
+- Phone is parent class.
