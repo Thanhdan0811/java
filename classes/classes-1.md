@@ -131,3 +131,9 @@ public Car(String steering, String engine, int wheels, int seats, int fueTank, S
 	}
 
 ```
+
+# Overriding
+- Rules :
+The method must have the same name as in the parent class
+The method must be IS-A relationship(inheritance)
+The method must have the same parameters as in the parent class.
